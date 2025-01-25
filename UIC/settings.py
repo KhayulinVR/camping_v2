@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import token_bot
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -124,4 +125,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # TELEGRAM_BOT_TOKEN
-TELEGRAM_BOT_TOKEN = '5832120975:AAF4pJKQiuYXhilYO3ukj30aJwho5N7Hx5g'
+TELEGRAM_BOT_TOKEN = token_bot.token
