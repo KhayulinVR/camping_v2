@@ -125,4 +125,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # TELEGRAM_BOT_TOKEN
-TELEGRAM_BOT_TOKEN = token_bot.token
+TELEGRAM_BOT_TOKEN = token_bot.token 
