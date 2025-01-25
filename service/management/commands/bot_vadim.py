@@ -2,8 +2,9 @@ import datetime
 import telebot as tb
 from telebot import types
 import calendar
+import token_bot
 
-bot = tb.TeleBot("5077234439:AAF7gdAqPQ_t2Fshqe1pd855fWlOKPnQK6o")
+bot = tb.TeleBot(token_bot.token)
 
 
 def create_callback_data(action, year, month, day):
